@@ -1,0 +1,519 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Sodo Sans';
+  src: url('fonts/sodosans-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sodo Sans';
+  src: url('fonts/sodosans-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+}
+.logo img{
+    width: 50px;
+    margin: 25px;
+    margin-left: 40px;
+}
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 40px;
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: color 0.1s ease;
+}
+/* .right-section i{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+} */
+section{
+    background-color:#32462f;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+}
+.text .container-text {
+    font-family: 'SoDo Sans', 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 39px;
+    font-weight: 600;
+}
+.btn-text p a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.text .btn-text{
+    margin-top: 48px;
+}
+/* .sec-section .container-sec{
+    display: flex;
+} */
+ /* #main-btn{
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+ } */
+
+ .btn-for-main{
+    margin-top: 35px;
+    margin-left: 15px;
+ }
+ .btn-for-main p a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 25px;
+    border: white 2px solid;
+    padding: 5px 10px;
+    font-weight: 400;
+    transition: 1s;
+ }
+ .container-sec{
+    display: flex;
+    margin-bottom: 30px;
+ }
+.left-section img{
+    width: 100%;
+    height:368px;
+
+}
+.right-section{
+     width: 50%;
+     height:368px;
+     background-color:#006242;
+     text-align: center;
+}
+.right-section h1{
+     color: white;
+     font-family: 'SoDo Sans', 'Poppins', sans-serif;
+     margin-top: 30px;
+     font-weight: 700;
+     font-size: 23px;
+}
+.right-section p{
+
+    font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     color: white;
+     font-size: 19px;
+     margin-top: 20px;
+     font-weight: 350;
+}
+.right-section p a{
+    color: white;
+     font-family: 'SoDo Sans', 'Poppins', sans-serif;
+    margin-top: 100px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 17px;
+}
+.container-third{
+    display: flex;
+    margin-bottom: 30px;
+}
+.left-section2{
+     width: 50%;
+     height:548px;
+    background-color:#9e0025;
+     text-align: center;
+}
+.right-section2 img{
+     width: 100%;
+     height: 548px;
+}
+.left-section2 h1{
+    color: white;
+     font-family: 'SoDo Sans', 'Poppins', sans-serif;
+     font-weight: bold;
+     font-size: 45px;
+     margin-top: 50px;
+}
+.left-section2 p{
+     color: white;
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+      font-size: 25px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+}
+.left-section2 p a{
+    color: #008000;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 4px 18px;
+    font-size: 18px;
+}
+.container-fourth{
+    display: flex;
+    margin-bottom: 30px;
+}
+.left-section3 img{
+    width: 100%;
+    height: 548px;
+}
+.right-section3{
+    height: 548px;
+    width: 50%;
+   background-color:#006241;
+}
+.right-section3 h1{
+    font-family: 'SoDo Sans', 'Poppins', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.right-section3 p{
+    color: white;
+   font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+.right-section3 p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 5px 12px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'SoDo Sans', 'Poppins', sans-serif;
+}
+.container-fifth{
+    display: flex;
+    margin-bottom: 30px;
+}
+.left-section4{
+   background-color:#a91d38;
+   width: 50%;
+   height: 548px;
+}
+.right-section4 img{
+    width: 100%;
+    height: 548px;
+}
+.left-section4 h1{
+    font-family: 'SoDo Sans', 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.left-section4 p{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.left-section4 .btn-order-now a{
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 3px 10px;
+    font-size: 17px;
+}
+.container-sixth{
+    display: flex;
+}
+.right-section5 img{
+    width: 100%;
+    height: 368px;
+}
+.left-section5{
+    background-color:#f1f0e4;
+    width: 50%;
+    height: 368px;
+}
+.left-section5 h1{
+    font-family: 'SoDo Sans', 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.left-section5 p{
+    text-align: center;
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 19px;
+     font-weight: 450;
+     margin-bottom: 30px;
+}
+.left-section5 .btn-order-now2 a{
+   font-family: 'SoDo Sans', 'Poppins', sans-serif;
+   border-radius: 25px;
+   color: white;
+  background-color: black;
+   text-decoration: none;
+   padding: 5px 10px;
+   font-weight: 550;
+   font-size: 17px;
+}
+.main-contents{
+    background-color: white;
+    width: 100%;
+    height: 55vh;
+}
+.contents p{
+   text-align: center;
+   margin-top: 60px;
+   font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   font-weight: lighter;
+}
+.contents #contents-text{
+   text-align: center;
+   margin-top: 100px;
+   font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   font-weight: lighter;
+   color: black;
+   border-bottom: 1px solid black;
+   padding-bottom: 40px;
+}
+footer{
+    width: 100%;
+    height: 80vh;
+
+}
+.container-about{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+}
+.about-us h1{
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 19px;
+     margin-left: 60px;
+     font-weight: 400;
+}
+#company,
+#coffe,
+#about-starbucks,
+#starbucks-archive,
+#investor-realtion,
+#customer-realtion,
+#contact-us{
+     margin-left: 60px;
+     text-decoration: none;
+     color: #606060;
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     margin-top: 25px;
+}
+.careers{
+    display: flex;
+    flex-direction: column;
+}
+.careers h1{
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 19px;
+     margin-left: 60px;
+     font-weight: 400;
+}
+#culture-value,
+#belong-starbucks,
+#collage-achivement,
+#alumni-community,
+#us-careers,
+#international-carreers{
+     margin-left: 60px;
+     text-decoration: none;
+     color: #606060;
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     margin-top: 25px;
+}
+.social-impacts{
+    display: flex;
+    flex-direction: column;
+}
+.social-impacts h1{
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 19px;
+     margin-left: 60px;
+     font-weight: 400;
+}
+#communities,
+#star-bucks-foundation,
+#sustainabilty,
+#environmental{
+     margin-left: 60px;
+     text-decoration: none;
+     color: #606060;
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     margin-top: 25px;
+}
+.forBusinesspartners{
+    display: flex;
+    flex-direction: column;
+}
+.forBusinesspartners h1{
+    font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 19px;
+     margin-left: 60px;
+     font-weight: 400;
+}
+#land-lord,
+#suppilers,
+#corporate,
+#office{
+      margin-left: 60px;
+     text-decoration: none;
+     color: #606060;
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     margin-top: 25px;
+}
+.order-pickup{
+    display: flex;
+    flex-direction: column;
+}
+.order-pickup h1{
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 19px;
+     margin-left: 60px;
+     font-weight: 400;
+}
+#order-app,
+#order-web,
+#delivery,
+#order-pickup,
+#Explore{
+     margin-left: 60px;
+     text-decoration: none;
+     color: #606060;
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     margin-top: 25px;
+}
+.container-footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+
+
+}
+#spotify,
+#facebook,
+#pinterest,
+#instagram,
+#youtube,
+#x{
+    font-size: 30px;
+    margin-left: 8px;
+    color: black;
+    text-decoration: none;
+    
+}
+#spotify{
+margin-left: 40px;
+}
+
+.footer-last{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.text-footer{
+    display: flex;
+    flex-direction: column;
+}
+.text-footer a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.text-footer p{
+     font-family: 'Poppins', 'Nunito Sans', 'Helvetica Neue', sans-serif;
+     margin-left: 40px;
+     font-size: 12px;
+     margin-bottom: 20px;
+     color: #333333;
+}
+.nav-bar ul li a:hover {
+     color: #006242;
+}
+.btn-for-main p a:hover{
+    background-color: rgb(0, 117, 74);
+}
+.container-sec #btn-hover a:hover{
+     background-color: #00563A;
+}
+.container-third .button-text2 a:hover{
+  background-color: #f6c5bf;
+  border-color: #d62b1f;
+}
+.container-fourth .btn-text-3 a:hover{
+  background-color: #00563A;
+}
+.container-fifth .btn-order-now a:hover{
+    background-color: #8a1a2f;
+}
+.about-us a:hover{
+    color: black;
+}
